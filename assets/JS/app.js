@@ -6,6 +6,6 @@ btn.addEventListener('click', async () => {
   const res = await fetch("https://examcarambar.onrender.com/api/v1/");
   const data = await res.json();
   console.log(data);
-  result.textContent = data.examcarambar.name;
+  result.textContent = data.examcarambar.blague;
 });
 
